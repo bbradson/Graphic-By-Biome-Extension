@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>/Defs/ThingDef[defName="ChunkSlagSteel"]</xpath>
+		<value>
+			<li Class="GraphicByBiome.Extension">
+				<biomes>
+					<li>
+						<graphicData>
+							<texPath>Things/Pawn/Humanlike/Apparel/CowboyHat</texPath>
+							<graphicClass>Graphic_Random</graphicClass>
+						</graphicData>
+						<def>BorealForest</def>
+					</li>
+				</biomes>
+			</li>
+		</value>
+	</Operation>
+</Patch>

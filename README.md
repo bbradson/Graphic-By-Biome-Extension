@@ -1,2 +1,2 @@
 # Graphic By Biome Extension
- Mod extension for rimworld to enable unique thing graphics per biome
+Small extension to enable unique graphics for things in specified biomes. The example patch replaces the steel slag chunk texture with cowboy hats when in a boreal forest biome.

@@ -7,9 +7,9 @@ using Verse;
 namespace GraphicByBiome;
 
 [StaticConstructorOnStartup]
-public static class MusicManagerPatch
+public static class StaticConstructor
 {
-	static MusicManagerPatch()
+	static StaticConstructor()
 		=> new Harmony("GraphicByBiomeExtension").Patch(AccessTools.Method(typeof(Thing), nameof(Thing.Print)),
 			  prefix: new(((Delegate)Thing_Print_Prefix).Method));
 
